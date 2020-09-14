@@ -36,6 +36,4 @@ composer require krzysztofrewak/laravel-conditional-seeders ^1.0
 
 Now you can switch base class of your seeders in `database/seeders` directory to `\KrzysztofRewak\ConditionalSeeder\ConditionalSeeder`. By overwriting `authorize()` method you can conditionally switch on/off seeder in question.
 
-::: tip
 Please remember to change base class of `DatabaseSeeder` to `\KrzysztofRewak\ConditionalSeeder\ConditionalSeeder` too. Without it, it won't work properly.
-:::
