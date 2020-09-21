@@ -1,3 +1,5 @@
+[![Latest Stable Version](https://poser.pugx.org/krzysztofrewak/laravel-conditional-seeders/v/stable)](https://packagist.org/packages/krzysztofrewak/laravel-conditional-seeders) [![Total Downloads](https://poser.pugx.org/krzysztofrewak/laravel-conditional-seeders/downloads)](https://packagist.org/packages/krzysztofrewak/laravel-conditional-seeders) [![License](https://poser.pugx.org/krzysztofrewak/laravel-conditional-seeders/license)](https://packagist.org/packages/krzysztofrewak/laravel-conditional-seeders)
+
 ## About
 Relatively often I needed to put some logic into seeders and run them accordingly to some conditions (eg. I didn't want to duplicate or overwrite some data, I just wanted to run it once, I just wanted to run it only on certain environment, etc.). Putting these conditions into `run()` method was making these seeders less readable and putting them into `DatabaseSeeder` could be dangerous enough (because someone could just ran it from the console).
 
